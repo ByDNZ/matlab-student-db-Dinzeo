@@ -1,7 +1,7 @@
 % Author Name: Lucius Dinzeo
 % Email: dinzeo22@students.rowan.edu
 % Created On: 11/1/2024
-% Updated On: 11/10/2024
+% Updated On: 11/11/2024
 % Update By: Dinzeo
 % All rights are reserved - MIT License
 % Title: Midterm
@@ -25,10 +25,6 @@ for i = 1:number_of_users
     fprintf('********************* \n');
     db = db.addStudent();
 end
-
-newGPA = input("Enter the updated GPA for the student: ");
-student = student.updateGPA(newGPA); 
-student = student.displayInfo();
 
 % Show updated student list
 disp("Updated student list:");
@@ -61,3 +57,7 @@ db.age_distribution();
 db.displayStats();
 
 db.visualizeData();
+
+newGPA = input("Enter the updated GPA for the student: ");
+student = student.updateGPA(newGPA); 
+student = student.displayInfo();
