@@ -58,6 +58,6 @@ db.displayStats();
 
 db.visualizeData();
 
-newGPA = input("Enter the updated GPA for the student: ");
+newGPA = input("Enter the updated GPA for the student (no decimal): ");
 student = student.updateGPA(newGPA); 
 student = student.displayInfo();
