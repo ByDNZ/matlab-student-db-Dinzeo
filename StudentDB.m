@@ -140,7 +140,7 @@ classdef StudentDB
             zoom on;
             pan on;
         end
-% Statistical Analysis (Average GPA, Average Age, GPA Range)
+% statistical analysis (average GPA, average Age, GPA range)
         function displayStats(currentObj)
     % calculates avg gpa
             avgGPA = mean([currentObj.studentList.GPA]);    
